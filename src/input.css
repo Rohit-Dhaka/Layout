@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.icon:hover path{
+    fill: white !important;
+    transition: all 500ms linear;
+}
+.card:hover  .icon-box{
+    right: 0 !important;    
+}
